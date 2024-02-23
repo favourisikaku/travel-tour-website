@@ -1,0 +1,392 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h1, h2, h3, h5{
+  font-weight: bold;
+}
+.home-section{
+  display: flex;
+}
+.home-section3{
+  margin-top: 100px;
+}
+.image-header img{
+  width: 100%;
+}
+.home-text{
+  position: absolute;
+  margin: 30% 35%;
+  white-space: nowrap;
+  color: white;
+  text-align: center;
+}
+
+.section2-header{
+  text-align: center;
+}
+
+.image-cards img{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.image-cards2 img{
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.image-cards2 img{
+  margin-left: 10px;
+  width: 300px;
+  height: 300px;
+}
+.card-img-top{
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.1);
+}
+
+.section4-header{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  height: 500px;
+  
+}
+
+.card{
+
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.text-card{
+  padding-top: 100px;
+  padding-right: 40px;
+}
+.row{
+  margin: auto;
+}
+
+ .card img{
+  width: 380px;
+  margin-top: 10px;
+  height: 50%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  
+}
+.card img:hover{
+  transform: scale(1.02)
+}
+
+.about-image img, .service-image img, .contact-image img{
+  width: 100%;
+  height: 70vh;
+}
+
+.about-image h1, .service-image h1, .contact-image h1{
+  position: absolute;
+  top: 30%;
+  right: 45%;
+  color: white;
+ 
+} 
+
+.fa-brands{
+  font-size: 40px;
+  margin-left: 15px;
+  color: white;
+  transition: 0.4s;
+}
+.navbar-nav{
+  font-size: 20px;
+}
+.nav-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.5s;
+}
+.nav-item:hover{
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  
+}
+.fa-brands:hover{
+  color: blue
+}
+
+.footer-title{
+  cursor: pointer;
+}
+
+@media  (max-width:800px) {
+  .card{
+    width: 300px;
+  }
+  .card img{
+    width: 280px;
+  }
+  .image-header img{
+    width: 105%;
+  }
+  .text-card-header{
+    flex-direction: column;
+  }
+  .text-card{
+    padding-top: 20px;
+    padding-right: 0;
+
+  }
+
+  .images-cards-image2{
+    margin-left: 25px;
+    margin-bottom: 30px;
+  }
+  .home-section3{
+    flex-direction: column-reverse;
+  }
+  .image5{
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .text-card2{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media  (max-width:1025px) and (min-width:1023px){
+  .home-text{
+    margin: 30% 30%;
+  }
+  .image-cards{
+    margin-top: 140px;
+  }
+  .image-cards2{
+    margin-top: 140px;
+  }
+  .card{
+    width: 250px;
+    height: 400px;    
+  }
+  .card img{
+    width: 230px;
+    height: 30%;
+  }
+  .home-section3{
+    margin-top: 10px;
+  }
+}
+@media  (max-width:800px) and (min-width:767px){
+  .home-text{
+    margin: 30% 25%;
+  }
+  .image-header img{
+    width: 100%;
+  }
+  .card{
+    width: 250px;
+    height: 450px;    
+  }
+  .card img{
+    margin-top: 10px;
+    width: 230px;
+    height: 30%;
+  }
+  
+  .home-section3{
+    margin-top: 10px;
+  }
+
+}
+@media  (max-width:426px) and (min-width:423px){
+  .home-text{
+    margin: 40% 13%;
+  }
+  .about-image h1, .service-image h1, .contact-image h1{
+    top: 40%;
+    right: 40%;
+  }
+  .text-card-header{
+    padding-left: 30px;
+  }
+  .image-header img{
+    width: 100%;
+    height: 350px;
+  }
+  .image-cards2{
+    padding-left: 40px;
+  }
+  .card{
+    width: 250px;
+    height: 450px;    
+  }
+  .card img{
+    margin-top: 10px;
+    width: 230px;
+    height: 30%;
+  }
+  
+  .home-section3{
+    margin-top: 10px;
+  }
+  .image-cards, .image-cards2{
+    flex-direction: column;
+  }
+  .footer-header{
+   display: flex;
+   flex-wrap: wrap;
+  }
+  .fa-brands{
+    font-size: 30px;
+  }
+}
+@media  (max-width:376px) and (min-width:374px){
+  .home-text{
+    margin: 35% 8%;
+  }
+  .about-image h1, .service-image h1, .contact-image h1{
+    top: 40%;
+    right: 40%;
+  }
+  .text-card-header{
+    padding-left: 30px;
+  }
+  .text-card2{
+    width: 85%;
+  }
+  .image-header img{
+    width: 100%;
+    height: 300px;
+  }
+  .image-cards img{
+    width: 250px;
+    height: 220px;
+    margin-left: 10px;
+  }
+  .image-cards2 img{
+    width: 250px;
+    height: 220px;
+    margin-left: 20px;
+  }
+  .image-cards2{
+    padding-left: 18px;
+  }
+  .card{
+    width: 250px;
+    height: 450px;    
+  }
+  .card img{
+    margin-top: 10px;
+    width: 230px;
+    height: 30%;
+  }
+  
+  .home-section3{
+    margin-top: 10px;
+  }
+  .image-cards, .image-cards2{
+    flex-direction: column;
+  }
+  .footer-header{
+  
+   justify-content: space-around;
+   flex-wrap: wrap;
+  }
+  .footer-title{
+    padding-right: 10px;
+  }
+  .fa-brands{
+    font-size: 20px;
+  }
+  .social p{
+    font-size: 15px;
+  }
+}
+@media  (max-width:321px) and (min-width:319px){
+  .home-text{
+    margin: 42% 4%;   
+  }
+  .home-text h1{
+    font-size: 25px;
+  }
+  .image-header img{
+    height: 300px;
+  }
+  .about-image h1, .service-image h1, .contact-image h1{
+    top: 40%;
+    right: 40%;
+  }
+  .text-card-header{
+    padding-left: 30px;
+  }
+  .text-card2{
+    width: 85%;
+  }
+  .image-header img{
+    width: 100%;
+  }
+  .image-cards img{
+    width: 220px;
+    height: 200px;
+    margin-left: 0px;
+  }
+  .image-cards2 img{
+    width: 220px;
+    height: 200px;
+    margin-left: 20px;
+  }
+  .image-cards2{
+    padding-left: 18px;
+  }
+  .card{
+    width: 250px;
+    height: 450px;    
+  }
+  .card img{
+    margin-top: 10px;
+    width: 230px;
+    height: 30%;
+  }
+  
+  .home-section3{
+    margin-top: 10px;
+  }
+  .image-cards, .image-cards2{
+    flex-direction: column;
+  }
+  .footer-header{
+   flex-wrap: wrap;
+   flex-direction: column;
+  }
+
+  .fa-brands{
+    font-size: 20px;
+  }
+  .social p{
+    font-size: 12px;
+  }
+}
